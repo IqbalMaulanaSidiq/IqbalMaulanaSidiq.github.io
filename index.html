@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" href="img/logo.png" />
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <header id="header">
+      <nav class="navbar">
+        <a href="#" class="nav-logo font-tambahan">Iqbal Maulana Sidiq</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#header" class="nav-link font-tambahan">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#profil" class="nav-link font-tambahan">Profil</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link font-tambahan">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link font-tambahan">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link font-tambahan">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <!-- akhir navbar -->
+
+    <!-- home -->
+    <section id="home">
+      <div class="text-container">
+        <p>Hello, Codingers</p>
+        <p>I&#8217;M Iqbal Maulana Sidiq</p>
+        <p>Website developer <br />&amp; Fighter Athlete</p>
+      </div>
+
+      <div>
+        <img alt="model" class="model" src="img/foto2.png" />
+      </div>
+      
+    </section>
+
+    <!-- akhir home -->
+
+    <!-- about me -->
+    <section id="profil"></section>
+    <div class="judul">
+      <h2 class="font-tambahan">About me</h2>
+    </div>
+    <div class="container">
+      <div class="profil">
+        <p>
+          My name is Iqbal Maulana Sidiq, a young man from Bandung who was raised by both parents who have always loved and been nurtured by life, born on September 27th, 2002. I study at Cibodas State Elementary School, Islamic Junior High
+          School Firdaus, State Vocational High School 1 Cisarua, and is currently studying at Pasundan University and taking an informatics engineering study program.
+        </p>
+        <p>
+          I am a junior developer, I have experience in the web developer, and game developer, apart from pursuing programming I also have experience in photo editing using Photoshop, besides that I also have experience in the world of
+          martial arts, I have studied syufu taesyukhan (one of the genres of martial arts). northern kung fu) for 3 years, karate (keishinkan) for 3 years, and now I'm studying muaythai (thai boxing).
+        </p>
+      </div>
+    </div>
+    <!-- akhir about me -->
+
+    <!-- my projects -->
+    <section id="projects">
+      <div class="judul">
+        <h2 class="font-tambahan">My Projects</h2>
+      </div>
+
+      <div class="container">
+        <div id="myBtnContainer">
+          <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+          <button class="btn" onclick="filterSelection('website')"> Website</button>
+          <button class="btn" onclick="filterSelection('game')"> Game</button>
+          <button class="btn" onclick="filterSelection('editing')"> Editing</button>
+        </div>
+        
+        
+        <div class="row">
+          <div class="column website">
+            <div class="content">
+              <div class="img-hover-zoom">
+              <img src="img/website1.jpg" >
+              </div>
+              <h4>SIMPLE HTML AND CSS</h4>
+              <p>I did this project to fulfill the final training provided by Sekolah Pintar</p>
+            </div>
+          </div>
+          <div class="column website">
+            <div class="content">
+              <div class="img-hover-zoom">
+            <img src="img/website2.jpg" >
+            </div>
+              <h4>SPP PAYMENT WEBSITE</h4>
+              <p>This website build with bootstrap 4 and php</p>
+            </div>
+          </div>
+          <div class="column website">
+            <div class="content">
+              <div class="img-hover-zoom">
+            <img src="img/website3.jpg" >
+            </div>
+              <h4>SIMPLE WEBSITE FOR SCHOOL</h4>
+              <p>This website build with html, css, and js</p>
+            </div>
+          </div>
+          
+          <div class="column game">
+            <div class="content">
+              <div class="img-hover-zoom">
+              <img src="img/game1.jpg" >
+              </div>
+              <h4>Pukul Bola Game</h4>
+              <p>Build with unity3d and c# language</p>
+            </div>
+          </div>
+          <div class="column game">
+            <div class="content">
+              <div class="img-hover-zoom">
+            <img src="img/game2.jpg" >
+            </div>
+              <h4>EDUCATION GAME PROJECT</h4>
+              <p>This project was carried out during field work practice at the</p>
+            </div>
+          </div>
+          
+        
+          <div class="column editing">
+            <div class="content">
+              <div class="img-hover-zoom">
+              <img src="img/editing1.jpg" >
+              </div>
+              <h4>LOGO FOR ONLINE SHOP</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+          <div class="column editing">
+            <div class="content">
+              <div class="img-hover-zoom">
+            <img src="img/editing2.jpg" >
+            </div>
+              <h4>MY LOGO</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+          <div class="column editing">
+            <div class="content">
+              <div class="img-hover-zoom">
+            <img src="img/editing3.jpg" >
+            </div>
+              <h4>FOR CLOTHING LOGO </h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+          <div class="column editing">
+            <div class="content">
+              <div class="img-hover-zoom">
+            <img src="img/editing4.jpg" >
+            </div>
+              <h4>FOR CLOTHING LOGO</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+
+    </section>
+    <!-- akhir projects -->
+
+    <!-- gallery -->
+<section id="gallery">
+<div class="judul">
+<h2 class="font-tambahan">My Gallery</h2>
+</div>
+  <div class="container">
+    <div class="row1 ">
+      <div class="column1 ">
+        <div class="img-hover-zoom">
+        <img src="img/DSC_0382.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+      </div>
+      </div>
+      <div class="column1">
+        <div class="img-hover-zoom">
+        <img src="img/DSC_0435.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+      </div>
+      </div>
+      <div class="column1">
+        <div class="img-hover-zoom">
+        <img src="img/123.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+      </div>
+      <div class="column1">
+        <div class="img-hover-zoom">
+        <img src="img/DSC_0468.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </div>
+      </div>
+      
+    </div>
+    
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+    
+        <div class="mySlides">
+          <div class="numbertext">1 / 4</div>
+          <img src="img/DSC_0382.JPG" style="width:100%">
+          
+        </div>
+    
+        <div class="mySlides">
+          <div class="numbertext">2 / 4</div>
+          <img src="img/DSC_0435.JPG" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+          <div class="numbertext">3 / 4</div>
+          <img src="img/123.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides">
+          <div class="numbertext">4 / 4</div>
+          <img src="img/DSC_0468.JPG" style="width:100%">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+    
+    
+        <div class="column1">
+          <img class="demo cursor" src="img/DSC_0382.JPG" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+        </div>
+        <div class="column1">
+          <img class="demo cursor" src="img/DSC_0435.JPG" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+        </div>
+        <div class="column1">
+          <img class="demo cursor" src="img/123.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+        </div>
+        <div class="column1">
+          <img class="demo cursor" src="img/DSC_0468.JPG" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+    <!-- akhir gallery -->
+
+    <!-- contact -->
+    <section id="contact">
+      <div class="judul">
+        <h2 class="font-tambahan">Contact Me</h2>
+        </div>
+      <div class="container2">
+        <form >
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Full Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your Name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Email</label>
+              
+            </div>
+            <div class="col-75">
+              <input type="email" id="lname" name="email" placeholder="Your Email..">
+            </div>
+          </div>
+         
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Massage</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Send">
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- contact -->
+
+    <!-- social media -->
+    <div class="social">
+      <a href="https://wa.me/6283829460763?text=Hii%20Iqbal%20Maulana%20Sidiq"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://twitter.com/IqbalSisiq?t=_8ugaDkDMkR7BlvV8iGsmw&s=09"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/iqbal_maulana.sidiq/"><i class="fab fa-instagram"></i></a>
+      <a href="https://github.com/iqbalsidiq1"><i class="fab fa-github"></i></a>
+    </div>
+    <!-- akhir social media -->
+    <!-- back to top -->
+    <div class="back-to-top">
+      <a href="#header"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <!-- footer -->
+  <footer>
+    <p class="font-tambahan">Created<i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.instagram.com/iqbal_maulana.sidiq/" class="font-tambahan">Iqbal Maulana Sidiq</a></p>
+  </footer>
+    <!-- akhir footer -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
